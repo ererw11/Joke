@@ -9,7 +9,7 @@ import android.support.v4.app.NotificationCompat;
 public class DelayedMessageService extends IntentService {
 
     public static final String EXTRA_MESSAGE = "message";
-    public static final int NOTIFICATION_ID = 5453;
+    public static final int NOTIFICATION_ID = 11;
 
     public DelayedMessageService() {
         super("DelayedMessageService");
